@@ -15,6 +15,3 @@
   npm install mocha should
   mocha
 ```
-
-# meta
-proudly presented by Patrick Heneise, Barcelona.
