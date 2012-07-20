@@ -5,7 +5,7 @@
 # usage
 ``` js
   geonode = require('geonode')
-  // return a bounding box of Barcelona with a radius of 5km.
+  // return a bounding box of Placa Catalunya, Barcelona with a radius of 1km.
   geonode.boundingBox(41.386549,2.170004,1);
   
 ```
