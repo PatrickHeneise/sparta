@@ -1,0 +1,14 @@
+{ "name"            : "geonode"
+, "description"     : "minimalistic spatial calculation library"
+, "homepage"        : "http://about.me/PatrickHeneise"
+, "repository"      : "git://github.com/PatrickHeneise/geonode"
+, "version"         : "0.0.1"
+, "author"          : "Patrick Heneise <@PatrickHeneise>"
+, "contributors"    : [
+    "Federico Ramponi (http://stackoverflow.com/users/18770/federico-ramponi)"]
+, "keywords"        : 
+  ["geocouch", "spatial", "calculations"]
+, "dependencies"    : { }
+, "main"            : "./geonode.js"
+, "engines"         : { "node": ">=0.3.6" }
+}
