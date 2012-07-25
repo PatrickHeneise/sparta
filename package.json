@@ -1,7 +1,7 @@
-{ "name"            : "geonode"
+{ "name"            : "sparta"
 , "description"     : "minimalistic spatial calculation library"
 , "homepage"        : "http://about.me/PatrickHeneise"
-, "repository"      : "git://github.com/PatrickHeneise/geonode"
+, "repository"      : "git://github.com/PatrickHeneise/sparta"
 , "version"         : "0.0.1"
 , "author"          : "Patrick Heneise <@PatrickHeneise>"
 , "contributors"    : [
@@ -9,6 +9,6 @@
 , "keywords"        : 
   ["geocouch", "spatial", "calculations"]
 , "dependencies"    : { }
-, "main"            : "./geonode.js"
+, "main"            : "./sparta.js"
 , "engines"         : { "node": ">=0.3.6" }
 }
