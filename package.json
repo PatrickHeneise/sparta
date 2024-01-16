@@ -1,14 +1,32 @@
-{ "name"            : "sparta"
-, "description"     : "minimalistic spatial calculation library"
-, "homepage"        : "http://about.me/PatrickHeneise"
-, "repository"      : "git://github.com/PatrickHeneise/sparta"
-, "version"         : "0.0.1"
-, "author"          : "Patrick Heneise <@PatrickHeneise>"
-, "contributors"    : [
-    "Federico Ramponi (http://stackoverflow.com/users/18770/federico-ramponi)"]
-, "keywords"        : 
-  ["geocouch", "spatial", "calculations"]
-, "dependencies"    : { }
-, "main"            : "./sparta.js"
-, "engines"         : { "node": ">=0.3.6" }
+{
+  "name": "sparta",
+  "description": "minimalistic spatial calculation library",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PatrickHeneise/sparta.git"
+  },
+  "version": "1.0.0",
+  "bugs": {
+    "url": "https://github.com/PatrickHeneise/sparta/issues"
+  },
+  "license": "Apache-2.0",
+  "author": "Patrick Heneise <hi@zentered.co> (https://zentered.co)",
+  "type": "module",
+  "contributors": [
+    "Federico Ramponi (http://stackoverflow.com/users/18770/federico-ramponi)"
+  ],
+  "keywords": [
+    "geocouch",
+    "spatial",
+    "calculations"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {},
+  "main": "./sparta.js",
+  "engines": {
+    "node": ">=20"
+  }
 }
